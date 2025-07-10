@@ -148,6 +148,7 @@ height: 4000px;
     
     .navbar{
         height: 80px;
+        /* width: 95%; */
     }
     
     .wrapp1{
@@ -247,6 +248,32 @@ footer{
 }
 
 
+@media screen and (max-width: 600px){
+    
+    /* body{
+        padding: 0px;
+    } */
+    
+    .accordion-item{
+        width: 300px;
+        margin-bottom: 30px;
+
+    }
+    
+    .card-custom{
+        width: 80%;
+    }
+    
+    #cardWrapper {
+        margin-top: 10px;
+        padding: 50px;
+        
+    }
+    
+    
+}
+
+
 /* chi siamo */
 
 .circle{
@@ -343,3 +370,9 @@ footer{
     padding: 15px;
 }
 
+@media screen and (max-width: 600px){
+    
+
+    
+    
+}
